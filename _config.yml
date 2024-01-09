@@ -56,7 +56,7 @@ minima:
 header_pages:
   - datasets.md
 
-github_url: "https://github.com/ooddb/OODDB/tree/package"
+github_url: "https://github.com/ooddb/OODDB"
 
 # Set to `true` to show excerpts on the homepage.
 #
