@@ -9,7 +9,7 @@ title: OOD Detection Benchmark
 The OODDB (OOD Detection Benchmark) is a comprehensive benchmark suite designed to evaluate machine learning models performing
 **Out-Of-Distribution Detection**, with a specific focus on its *semantic* aspect (a.k.a. *Semantic Novelty Detection*).
 In this task, a model has access to a set of labeled samples (*support set*) that represents the
-*known* categories and it has to identify the test samples as either *known* (i.e., belonging to those same classes) or *unknown* (i.e., belogning to other unseen ones).
+*known* categories and it has to identify the test samples as either *known* (i.e., belonging to those same classes) or *unknown* (i.e., belonging to other unseen ones).
 
 The benchmark includes datasets depicting different kind of subjects (generic objects, textures, scenes, aerial views), with multiple levels of granularity and across different visual domains.\
 In particular, it's designed to test the models both in a **_cross-domain_** and **_intra-domain_** scenario (i.e., with or without a visual domain shift between the support and test distributions), aiming at
@@ -73,7 +73,7 @@ The benchmark includes the following datasets:
 We provide train and test splits for each dataset. 
 A train split represents the ID (*in-distribution*) data (i.e., the *known* classes), thus, it only contains a subset of the categories of the corresponding test split (which instead includes both ID and OOD samples).\
 More specifically, for each dataset we performed 3 different random divisions of its categories into *known* (ID) and *unknown* (OOD) ones. We refer to these 3 splits as **_data orders_** and we provide a train-test split for each one of them.
-(In order to increase the statistical revelance of the results, it is advisable to
+(In order to increase the statistical relevance of the results, it is advisable to
 repeat the evaluation for all 3 *data orders* in the given setting and to average the obtained values.)
 
 For more information, see [Datasets]({{site.baseurl}}/datasets/).
